@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>TodoList</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<script defer src="index.js"></script>
+<body onload="load()">
+     <div id="myDIV" class="header">
+          <h2>To Do List</h2>
+          <input type="text" id="taskInput" placeholder="To do...">
+          <button type="button" id="Add" class="RButton">Add</button><br>        
+          <input type="date" id="dateInput">
+          <button type="button" id="Show" class="RButton">Show</button><br>
+          <button type="button" id="Clear" class="LButton">Clear</button>        
+          <button type="button" id="Delete" class="LButton">Delete</button>
+     </div>     
+     <ul id="myList">
+     </ul>     
+</body>
+</html>
